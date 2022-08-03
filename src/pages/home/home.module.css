@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'EphemeraEgyptian-Medium';
+    src: url('../../fonts/EphemeraEgyptian-Medium.otf'), url('../../fonts/EphemeraEgyptian-Medium.otf');
+    font-style: normal;
+ }
+
+body{
+    margin: 0;
+}
+.container{
+    font-family: EphemeraEgyptian-Medium;
+    padding-left:2%;
+    width:100%; 
+    background-color: #ecdad5;
+}
+
+.mainTitle{
+    font-family: EphemeraEgyptian-Medium;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 3%;
+    font-size: 1.5rem;
+    color: #E6562E;
+}
+
+.container:hover{
+    background-color: #E6562E;
+    color: white ;
+    cursor: pointer;
+}
+
+.container:hover .tickets{
+    background-color: #E6562E;
+    color: white ;
+    cursor: pointer;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.tickets{
+    color: #E6562E;
+}
