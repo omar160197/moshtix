@@ -17,10 +17,12 @@ const Home = () => {
         return( <ListItem sx={{paddingY:"0.4%"}} key={index} >
         <a  
         href={value.link}
+        target="_blank"
+        rel="noreferrer"
         style={{width:"100%",display:"flex"}}>
          <div><img style={{height:"100%"}} src={value.enclosure['@url']} alt="" /></div>
          <div className={styles.container}>
-             <p>{value['moshtix:eventfinishdatetime']}</p>
+             <p>{value['moshtix:eventfinishdatetime'].slice(0,16)}</p>
              <p style={{fontSize:"20px"}}>{value.title}</p>
              <p className={styles.tickets}>Tickets</p> 
              </div>  
